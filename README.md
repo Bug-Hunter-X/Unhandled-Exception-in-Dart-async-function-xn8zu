@@ -1,0 +1,3 @@
+# Unhandled Exception in Dart async function
+
+This repository demonstrates a common error in Dart asynchronous programming: failing to re-throw exceptions caught in `async` functions.  The `bug.dart` file contains code that fetches data from a remote API.  If an error occurs during the request, the exception is caught, but the function doesn't re-throw it, hindering proper error management. The solution is in `bugSolution.dart`.
